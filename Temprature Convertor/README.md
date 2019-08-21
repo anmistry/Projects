@@ -1,4 +1,4 @@
-Temprature Convertor Program: This program converts celsius temperature to fahreheit and fahrenheit temperature to celcius using if-else statements.
+Temprature Convertor program converts celsius temperature to fahreheit and fahrenheit temperature to celcius using if-else statements.
 
 Requirements:
 1. User should provide input for an integer value to be converted into desired temprature.
