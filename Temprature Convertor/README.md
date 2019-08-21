@@ -10,4 +10,5 @@ How to build:
 2. Open Visual Studio.
 3. Change your directory where Temrature COnvertor program is located.
 4.To complie the program, run ctrl + F5.
-5. Program will execute. Follow user instructions in the program to get results.
+5. Program will execute. 
+6. Follow user instructions in the program to get results.
