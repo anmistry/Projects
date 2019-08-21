@@ -10,6 +10,5 @@ How to build:
 2. Open Linux system.
 3. Change your directory where Bit Magic program is located.
 4.To complie the program, run command gcc bitMagic.c
-./a.out file should be created in the Projects folder.
 5. run ./a.out on command prompt.
 6. Program will execute. Follow user instructions in the program to get results.
