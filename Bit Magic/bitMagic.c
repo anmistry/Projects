@@ -1,6 +1,7 @@
 /*
 Author: Ankita Mistry
-Program: This program performs bitshifting for entered integer and convert shifted integer value to binary format.
+Program: This program performs bitshifting for entered integer and 
+convert shifted integer value to binary format.
 */
 
 #include <stdio.h>
@@ -15,9 +16,9 @@ int main(){
 	int j;       // Stores value loop counter.
 	int result;  // Stores final result.
 
-	printf("Enter \n L for shifting Left \n R for shifting Right: ");
+	printf("Enter 'L' for shifting Left or 'R' for shifting Right: ");
 	scanf("%c", &pos);
-	printf("Enter the value of an interger for bitshifting operation: ");
+	printf("Enter an interger value for bitshifting operation: ");
 	scanf("%d", &a);
 	printf("Enter the value by how many places you want to shift the integer: ");
 	scanf("%d", &b);
@@ -34,7 +35,7 @@ int main(){
 		printf("Invalid input. Please enter L or R.\n");
 	}
 
-	printf("The shfited value is: %d\n", result);
+	printf("The shifted value is: %d\n", result);
 
 	// Convert decimal result value to binary number.
 	i = 0;
