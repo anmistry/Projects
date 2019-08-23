@@ -1,7 +1,6 @@
 /********************************************************/
 /* Name: Ankita Mistry                                  */
-/* Class: CS372                                         */
-/* Project: Project 1 "Client-Server application"        */
+/* Project: Project 1 "Client-Server application"       */
 /********************************************************/
 
 #include <stdio.h>
