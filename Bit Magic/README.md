@@ -8,5 +8,5 @@ Bit Magic Program performs bitshifting for an integer and convert shifted intege
 4. Run command gcc bitMagic.c on command line.
 5. Run ./a.out on command prompt.
 6. Program will execute.
-7. Enter integer value for temperature.
-8. Enter C or F to convert value in Celsius or Fahrenheit.
+
+
