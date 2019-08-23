@@ -9,4 +9,7 @@ Bit Magic Program performs bitshifting for an integer and convert shifted intege
 5. Run ./a.out on command prompt.
 6. Program will execute.
 
+# Demo link:
+https://ide.geeksforgeeks.org/vfI6bzkxQw
+
 
