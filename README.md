@@ -7,3 +7,4 @@ The projects contains "demo" link to showcase the live program.
 3. ChatServe - Developed chat system consisted of client and server side agents.
 4. Smallsh - Created custom bash like shell in C.
 5. Calculator - Developed calculator program to perform basic calculator operations.
+6. Phone Book - Designed Phone Book console application
