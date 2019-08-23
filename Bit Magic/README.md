@@ -10,6 +10,6 @@ Bit Magic Program performs bitshifting for an integer and convert shifted intege
 6. Program will execute.
 
 # Demo link:
-https://ide.geeksforgeeks.org/vfI6bzkxQw
+<script src="//onlinegdb.com/embed/js/B1PGb9pVH?theme=dark"></script>
 
 
