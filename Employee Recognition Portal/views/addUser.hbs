@@ -1,0 +1,23 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/FAVICON.png" size="16x16" type="image/png">
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+<div class="header">
+    <img src="/images/ERPLOGO.png" ALT="">
+</div> 
+
+<a href="/admin" style="color:orange;float:right;">Back to AdminPage</a>
+
+<h2>Employee Recognition Portal Add User</h2>
+
+<div class ="Form">
+    <form action="/admin/newuser" method="post" enctype="multipart/form-data">
+        <div class = "Form_Layout">
+            <input type="email" placeholder="Enter Email Address" name="email" required/><br/>
+            <input type="text" placeholder="Add user's firstname" name="firstname" required/></br>
+            <input type="text" placeholder="Add user's lastname" name="lastname" required/></br>
+            <input type="password" placeholder="Enter Password" name="password" required/><br/>
+            <input type="file"  name="myImage" required> <br>
+            <input type="submit" value="Add User">           
+        </div>
+    </form>
+</div>

@@ -1,0 +1,56 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/FAVICON.png" size="16x16" type="image/png">
+<link rel="stylesheet" type="text/css" href="/stylesheets/userpageStyle.css">
+<div class="header">
+    <img src="/images/ERPLOGO.png" ALT="">
+</div>
+
+<h2>Employee Recognition Portal User Webpage</h2>
+
+
+    <ul>
+        <li><a href="login/user_page">User Profile</a>
+            <ul>
+                <li><a href="/edit/{{id}}">Update User</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Awards</a>
+            <ul>
+                <li><a href="awards/addaward">Add Awards</a></li>
+            </ul>
+        </li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+<h5>{{error}}</h5>
+<h5>{{success}}</h5>
+<h3>Welcome {{name}} !</h3>
+
+<br>
+
+<h4> My awards</h4>
+
+
+    <table id="tables">
+
+        <tr>
+            <th>Award Type</th>
+            <th>Awardee's Email</th>
+            <th>Awardee's Department</th>
+            <th>Awardee's Region</th>
+            <th>Delete Awards</th>
+          
+        </tr>
+        {{#each elements}}
+            <tr>
+                <td>{{this.award_type}}</td>
+                <td>{{this.awardee_email}}</td>
+                <td>{{this.awardee_dept}}</td>
+                <td>{{this.awardee_region}}</td>
+                <td><form action="/awards/deleteAward/{{this.award_id}}"> 
+                <input type="submit" value="DELETE" formmethod="post">
+                </form></td>
+            </tr>
+        {{/each}}
+    </table>
+
+    

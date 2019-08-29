@@ -1,0 +1,25 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/FAVICON.png" size="16x16" type="image/png">
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+<div class="header">
+    <img src="/images/ERPLOGO.png" ALT="">
+</div>
+
+<a href="/" style="color:orange;float:right;">Back to Dashboard</a>
+
+<h2>Employee Recogniton Portal User Signup</h2>
+<h5>{{error}}</h5>
+<div class ="Form">
+    <form action="/signup" method="post" enctype="multipart/form-data">
+        <div class ="Form_Layout">
+            <p></p>
+            <input type ="text" placeholder="Enter Email Address" id="Username" name="email" required><br>
+            <input type ="text" placeholder="Enter First Name" id="Firstname" name="firstname" required><br>
+            <input type ="text" placeholder="Enter Last Name" id="Lastname" name="lastname" required><br>
+            <input type ="password" placeholder="Enter Password" id="Password" name="password" required><br>
+            <input type="file"  id="Signature" name="myImage" required> <br>
+            <input type ="submit" value="Register"><br>
+            <a href='/login'>Already a User? Login</a>
+        </div>
+    </form>
+</div>

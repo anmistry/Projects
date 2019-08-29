@@ -1,0 +1,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/FAVICON.png" size="16x16" type="image/png">
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+<div class="header">
+    <img src="/images/ERPLOGO.png" ALT="">
+</div> 
+
+<a href="/" style="color:orange;float:right;">Back to Dashboard</a>
+
+<h2>Employee Recognition Portal Admin Login</h2>
+
+<div class ="Form">
+    <form action="/admin/login" method="post">
+        <div class = "Form_Layout">
+            <input type="email" placeholder="Enter Email Address" name="email" required/><br/>
+            <input type="password" placeholder="Enter Password" name="password" required/><br/>
+            <input type="submit" value="Login"></br>
+            {{{LoginStatus}}}
+            <a href="/admin/signup"> Sign up here</a><br>
+           
+            
+        </div>
+    </form>
+</div>

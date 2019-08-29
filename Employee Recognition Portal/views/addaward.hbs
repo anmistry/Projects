@@ -1,0 +1,30 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="/images/FAVICON.png" size="16x16" type="image/png">
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/style.css"> 
+
+<div class="header">
+    <img src="/images/ERPLOGO.png" ALT="">
+</div>
+
+<a href="/user_page" style="color:orange;float:right;">Back to UserPage</a>
+
+<h2>Employee Recognition Portal Add Award Page</h2>
+
+<div class ="Form">
+    <form action="/awards/addAward" method="post">
+        <div class = "Form_Layout">
+        <select name="award_type">
+            <option value=1>Employee of the Week</option>
+            <option value=2>Employee of the Month</option>
+        </select>
+        <input type="text" placeholder="Awardee's Name" id="awardee_name" name="awardee_name" required/><br/>
+        <input type="email" placeholder="Awardee's Email Address" id="awardee_email" name="awardee_email" required/><br/>
+        <input type="text" placeholder="Awardee's Dept" id="awardee_dept" name="awardee_dept" required><br>
+        <input type="text" placeholder="Awardee's Region" id ="awardee_region" name="awardee_region" required/><br/>
+        <input type="date" id="timestamp" name="timestamp" required><br>
+        <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>

@@ -1,0 +1,265 @@
+body {
+    background-position: center;
+    background: url("../images/background_image.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: darkorange;
+    text-shadow: 2px 2px black;
+    display: block;
+    margin-right: 210px; 
+}
+
+h3 {
+    text-align: center-left;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: goldenrod;
+    text-align: left;
+}    
+
+h5 {
+   font-size: 14px;
+   font-family: sans-serif;
+   color: #FFFF99;
+   text-align: left; 
+}
+
+
+p {
+   margin: 30px;
+   text-align: center;
+   font-size: 16px;
+   font-family: sans-serif; 
+   color: gold;
+}
+
+.header img {
+    z-index: 0;
+    opacity: 0.9;
+    float: left;
+    width: 200px;
+    height: auto;
+    display: inline-block; 
+    margin: 0px 0px -100px 0px;
+    padding: 0px;
+}
+
+Form {
+    width: 360px;
+    padding: 10px 0 0;
+    margin: auto;
+    background: transparent;   
+}
+
+Form_Layout {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: deepskyblue;
+    position: absolute;
+}
+
+.Form_Layout select {
+    padding: 15px;
+    margin: 0 0 15px;
+    border: 2px solid black;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+
+input[type=text] {
+    padding: 15px;
+    margin: 0 0 15px;
+    border-style: solid;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+input[type=email] {
+    padding: 15px;
+    margin: 0 0 15px;
+    border-style: solid;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+input[type=password] {
+    padding: 15px;
+    margin: 0 0 15px;
+    border-style: solid;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+input[type=date] {
+    padding: 15px;
+    margin: 0 0 15px;
+    border-style: solid;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+input[type=submit] {
+  background-color: darkseagreen;
+  color: black;
+  padding: 15px;
+  margin: 0 0 15px;
+  border: none;
+  cursor: pointer;
+  width: 91%;
+}
+
+input[type=button] {
+  position: realtive;
+  float: bottom;
+  bottom: 0;
+  right: 0;
+  background-color: pink;
+  color: black;
+  padding: 5px;
+  margin: 0 0 5px;
+  border: none;
+  cursor: pointer;
+  width: 9%;
+}
+
+input[type=file] {
+    padding: 15px;
+    margin: 0 0 15px;
+    border-style: solid;
+    outline: 1;
+    width: 91%;
+    background-color: powderblue;
+}
+
+a {
+    font-family: sans- serif;
+    color: honeydew;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;;
+    margin-top: 15px;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;      
+}
+
+ul li {
+    float: left;
+    margin-top: 3px;
+    background: transparent;
+    color: inherit;
+    inline-height :40px;
+    opacity: 1;
+    height: 40px;
+    width: 88px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border style: solid;
+    border-color: orange;
+    font-color: orange;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: orange;
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+ul li a:hover{
+    background-color: gray;
+}
+
+ul li ul li a{
+   cursor: pointer;
+}
+
+#tables{
+    border-style: solid;
+    color: darkkhaki;
+    float: left; 
+    table-layout: auto;
+}
+
+#tables td, th {
+    border: 1px solid papayawhip;
+    color: darkkhaki;
+}
+
+#tables td.shrink{
+    white-space: nowrap;
+}
+
+#tables input[type=submit]{
+    background-color: gray;
+    width: 15%;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#plotlyOptions {
+    float: left;
+    z-index: 1;
+    padding: 10px;
+    border: 2px solid black;
+    outline: 1;
+    width: 15%;
+    background-color: powderblue;
+    margin-left: 8px;
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+#plotlyLoad{
+    float: left;
+    background-color: darkseagreen;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 10px;
+    width: 15%;
+    margin-top: 30px;
+}
