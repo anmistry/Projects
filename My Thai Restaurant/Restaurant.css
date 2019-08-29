@@ -1,0 +1,21 @@
+body
+{background-color :White;
+}
+
+h1 { font-style: italic; }
+
+
+fieldset {
+    background-color: #dfdfdf;
+}
+
+td, th
+{
+	border-style :solid;
+    background-color:LightYellow;
+	border-width:1px;
+	padding: 8px;
+
+}
+
+  
